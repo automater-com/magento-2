@@ -1,0 +1,29 @@
+{
+    "name": "automater-pl/magento-2",
+    "description": "Magento 2 Automater",
+    "require": {
+        "automater-pl/rest-php-sdk": "^0.1.8",
+    },
+    "type": "magento2-module",
+    "version": "0.1",
+    "keywords": [
+        "magento 2",
+        "ebay",
+        "allegro",
+        "automater",
+        "magento 2 automater",
+        "magento2"
+    ],
+    "authors": [{
+        "name": "Automater sp. z o.o.",
+        "email": "kontakt@automater.pl",
+        "homepage": "https://automater.com",
+    }],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Automater\\Automater\\": ""
+        }
+    }
