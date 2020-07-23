@@ -94,7 +94,7 @@ class CreateTransaction implements ObserverInterface
         if (count($products)) {
             $email = $order->getBillingAddress()->getEmail();
             $phone = $order->getBillingAddress()->getTelephone();
-            $label = __("Order from %s, id: #%s", $this->storeManager->getStore()->getBaseUrl(), $order->getIncrementId());
+            $label = sprintf("Order from %s, id: #%s", $this->storeManager->getStore()->getBaseUrl(), $order->getIncrementId());
 
             try {
                 $response = $this->_automater->createTransaction($products, $email, $phone, $label);

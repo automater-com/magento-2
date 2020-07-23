@@ -5,7 +5,7 @@
         "automater-pl/rest-php-sdk": "^0.1.8"
     },
     "type": "magento2-module",
-    "version": "0.1",
+    "version": "0.1.1",
     "keywords": [
         "magento 2",
         "ebay",
